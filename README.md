@@ -30,7 +30,9 @@ It returns:
 Again, this is also mocked to keep things simple. It still feels realistic because the agent shows results like “Sunny” or “Rainy.”
 
 3. Itinerary Agent - This agent is the brain of the system. It uses the research data and weather data and creates a plan for each day.
+   
 For example: Day 1 – Visit Eiffel Tower (Weather: Cloudy)
+
 This shows how AI can combine information and make decisions.
 
 4. Orchestrator - The orchestrator makes sure everything happens step-by-step.
