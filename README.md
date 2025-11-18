@@ -9,14 +9,13 @@ Travel planning can be tiring. You have to look for places to visit, check weath
 - one agent to research popular places,
 - one agent to give weather info,
 - one agent to combine everything into an itinerary.
-- 
+  
 This way the system works like a travel assistant that listens to what the user wants and prepares a plan automatically.
 
 # How the System Works:
 The user only needs to give two things:
 - the city they want to visit
 - how many days they want to stay
-- 
 After that, my orchestrator agent takes control and calls the other agents in the correct order.
 
 1. Research Agent - This agent looks up famous attractions for the city. Because Kaggle doesn't allow calling outside APIs easily, I created a small mock database with popular places for cities like Delhi, Tokyo, and Paris.
