@@ -1,0 +1,25 @@
+{
+    "city": "Tokyo",
+    "weather": {
+        "location": "Tokyo",
+        "temp_c": 18,
+        "condition": "Snowy"
+    },
+    "itinerary": [
+        {
+            "day": 1,
+            "place": "Shibuya Crossing",
+            "weather": "Snowy"
+        },
+        {
+            "day": 2,
+            "place": "Senso-ji Temple",
+            "weather": "Snowy"
+        },
+        {
+            "day": 3,
+            "place": "Tokyo Skytree",
+            "weather": "Snowy"
+        }
+    ]
+}
