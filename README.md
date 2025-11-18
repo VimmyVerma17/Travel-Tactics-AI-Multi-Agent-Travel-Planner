@@ -17,25 +17,21 @@ The user only needs to give two things:
 - how many days they want to stay
 After that, my orchestrator agent takes control and calls the other agents in the correct order.
 
-1. Research Agent
-This agent looks up famous attractions for the city. Because Kaggle doesn't allow calling outside APIs easily, I created a small mock database with popular places for cities like Delhi, Tokyo, and Paris.
+1. Research Agent - This agent looks up famous attractions for the city. Because Kaggle doesn't allow calling outside APIs easily, I created a small mock database with popular places for cities like Delhi, Tokyo, and Paris.
 This makes the notebook fully runnable without errors.
 
-2. Weather Agent
-This agent gives weather details.
+3. Weather Agent - This agent gives weather details.
 It returns:
 - temperature
 - weather condition
 - city name
 Again, this is also mocked to keep things simple. It still feels realistic because the agent shows results like “Sunny” or “Rainy.”
 
-3. Itinerary Agent
-This agent is the brain of the system. It uses the research data and weather data and creates a plan for each day.
+3. Itinerary Agent - This agent is the brain of the system. It uses the research data and weather data and creates a plan for each day.
 For example: Day 1 – Visit Eiffel Tower (Weather: Cloudy)
 This shows how AI can combine information and make decisions.
 
-4. Orchestrator
-The orchestrator makes sure everything happens step-by-step.
+4. Orchestrator - The orchestrator makes sure everything happens step-by-step.
 It:
 - reads the user request
 - calls each agent
@@ -47,19 +43,16 @@ This is exactly how real-world AI agent systems work.
 # Extra Features I Added:
 To show more agent-like behavior, I also added some small but important extras.
 
-A. Memory System
-I made a small memory list where the agent can remember user preferences.
+A. Memory System - I made a small memory list where the agent can remember user preferences.
 For example:
 - likes vegetarian food
 - prefers museums
 This shows how an AI concierge can get smarter over time.
 
-B. Long Running Task
-I added a fake long task called “booking generator” that runs in steps (like Step 1/5, Step 2/5…). This is to show how agents handle work that takes time.
+B. Long Running Task - I added a fake long task called “booking generator” that runs in steps (like Step 1/5, Step 2/5…). This is to show how agents handle work that takes time.
 This looks realistic because in real life booking and processing also take time.
 
-C. JSON File Output
-I save the final trip plan into a JSON file so the user can download it.
+C. JSON File Output - I save the final trip plan into a JSON file so the user can download it.
 This is useful because real AI tools also generate files for users.
 
 # Why This Project Fits the Concierge Agents Track:
