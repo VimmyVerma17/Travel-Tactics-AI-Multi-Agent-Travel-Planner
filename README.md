@@ -20,10 +20,8 @@ The user only needs to give two things:
 After that, my orchestrator agent takes control and calls the other agents in the correct order.
 
 1. Research Agent - This agent looks up famous attractions for the city. Because Kaggle doesn't allow calling outside APIs easily, I created a small mock database with popular places for cities like Delhi, Tokyo, and Paris.
-   
-This makes the notebook fully runnable without errors.
 
-3. Weather Agent - This agent gives weather details.
+2. Weather Agent - This agent gives weather details.
 It returns:
 - temperature
 - weather condition
