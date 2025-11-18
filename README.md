@@ -1,0 +1,1 @@
+Travel Tactics is a simple AI project where I built a small multi-agent travel planner. The main idea of my project is to show how different agents can work together like a team to help a user plan a trip. Instead of one big model doing everything, I divided the work into smaller agents. Each agent has one job, and they all come together to create a full travel itinerary.
